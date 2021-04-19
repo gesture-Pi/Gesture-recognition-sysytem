@@ -117,6 +117,9 @@ player2 send s
 #s means scissors
 player2 win!
 ```
+<br />
+Our dataset is in [here](modules/Pisever) and code of server is [here](modules/communication module/multipleserver.cpp).
+<br />
 Here is a running demo
 <br />
 <p align="center">
@@ -124,8 +127,7 @@ Here is a running demo
     <img src="Images/test.gif" alt="Gesture-Pi"width="700" height="400">
   </a>
  
-<br />
-Our dataset is in [here](modules/Pisever) and code of server is [here](modules/communication module/multipleserver.cpp).
+
   
 ## Contributing
 

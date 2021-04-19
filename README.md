@@ -118,7 +118,8 @@ player2 send s
 player2 win!
 ```
 <br />
-Our dataset is in [here](modules/Pisever) and code of server is [here](modules/communication module/multipleserver.cpp).
+Our dataset is in [here](modules/Pisever) 
+and code of server is [here](modules/communication module/multipleserver.cpp).
 <br />
 Here is a running demo
 <br />

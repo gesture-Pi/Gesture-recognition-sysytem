@@ -109,6 +109,11 @@ player2 send s
 #s means scissors
 player2 win!
 ```
+<p align="center">
+  <a href="https://github.com/gesture-Pi/Gesture-recognition-sysytem">
+    <img src="Images/test.gif" alt="Gesture-Pi"width="400" height="188">
+  </a>
+
 ## Contributing
 
 [Buchen Ping](https://github.com/PBC1998)

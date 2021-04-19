@@ -97,8 +97,17 @@ Do you want to use the existing dataset? 0 not or 1 yes
 at first use, user can only choose 0 to train new dataset. user should adjust gesture with tips until program tells that train finished. then user can coutinue to test data.
 
 <br />
+after putting hand over detection area, Raspberry Pi will receive data and check if the format of data is right. And then Raspberry Pi will show the result and send data to server.
+<br />
+until two clients establishing TCP connection with server, server will compare two data and show the result of judgement.
+<br />
 ```sh
-
+player1 send p
+#p means paper
+player2 send s
+#s means scissors
+player2 win!
+```
 ## Contributing
 
 [Buchen Ping](https://github.com/PBC1998)

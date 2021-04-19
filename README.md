@@ -1,5 +1,8 @@
 # Gesture-Pi
-
+<p align="center">
+  <a href="https://github.com/gesture-Pi/Gesture-recognition-sysytem">
+    <img src="Images/Figure1.png" alt="Gesture-Pi"width="254" height="254">
+  </a>
 <p align="center">
   <a href="https://www.bilibili.com/video/BV1sA411V7Yw/">
     <img src="Images/Bilibili.png" alt="Bilibili"  width="64" height="64">
@@ -16,21 +19,18 @@
 
 
 ## Table of Contents
-- [Abstract]( #Abstract)
 - [Introduction]( #Introduction)
-- [Install](#install)
+- [Algorithm](#Algorithm)
+- [Hardware](#Hardware)
 - [Usage](#usage)
 	- [Generator](#generator)
 - [Badge](#badge)
-- [Example Readmes](#example-readmes)
+- [Prerequisites](#Prerequisites)
 - [Related Efforts](#related-efforts)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Abstract
-
-The gesture recognition system designed in this paper takes STM32 single chip microcomputer and raspberry pi as the core control unit, 8 copper clad plates as sensors to obtain the capacitance corresponding to the gesture, and uses TI company's sensor chip FDC2214 to detect the capacitance, and uses machine learning KNN (proximity) algorithm for data training and testing to finally recognize the specified gesture. Through the key module and OLED display to achieve human-computer interaction function, it can realize the function of key parameter adjustment and mode switching. The model of server and client based on TCP protocol enables users of raspberry pi to communicate with each other. The whole system involves gesture recognition test structure design, system circuit design, data transmission, data storage and KNN algorithm. Through a large number of tests, the advantages and disadvantages of different schemes are compared, and the existing appearance test structure and control system structure are finally determined. The experimental results show that the design of gesture recognition system is feasible.
 
 ## Introduction
 
@@ -43,15 +43,24 @@ KNN (K-Nearest Neighbor) method, originally proposed by Cover and Hart in 1968, 
 
 ## Hardware
 
-FDC2214 sensor
-STM32Fxx(we use STM32F103C8T6here)
-an OLED screen
-rocker botton or replaced by several bottons
-raspberry Pi
+[FDC2214 sensor](document/FDC2214)
+<br />
+[STM32Fxx](https://uk.rs-online.com/web/p/microcontrollers/0402279/?gclid=EAIaIQobChMIpM_4j7mK8AIVTLTtCh0UZAAxEAAYASAAEgLis_D_BwE&gclsrc=aw.ds)(we use STM32F103C8T6here)
+<br />
+[an OLED screen](https://item.taobao.com/item.htm?id=565268851518&ali_refid=a3_430673_1006:1151926661:N:WFoiFXIH007ZiutAq%2B3BZQ%3D%3D:1932cfb731eaea0fd428272e019ed1c0&ali_trackid=1_1932cfb731eaea0fd428272e019ed1c0&spm=a2e0b.20350158.31919782.6)
+<br />
+[rocker botton or replaced by several bottons](https://detail.tmall.com/item.htm?id=620908458252&ali_refid=a3_430673_1006:1123793357:N:6OPPrB0+uX2elEPTt8Nlog==:b6f869ff14e6c9779e455577b3e83b6a&ali_trackid=1_b6f869ff14e6c9779e455577b3e83b6a&spm=a2e0b.20350158.31919782.2)
+<br />
+[Raspberry Pi 4 B](https://www.amazon.co.uk/gp/product/B07WKKS471/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+<br />
+<p align="center">
+  <a href="https://github.com/gesture-Pi/Gesture-recognition-sysytem">
+    <img src="Images/figure1.jpg" alt="Gesture-Pi"  width="64" height="64">
+  </a>
 
 ## Prerequisites
 
-This project consists of two parts: the STM32 and the raspberry pi program. The former uses Keil4 or 5 to run, which requires basic librabry, and it can be found in libraries file. Apart from that, the FDC sensor should be connected in the right pin, just as the program shown.超链接 
+This project consists of two parts: the STM32 and the raspberry pi program. The former uses Keil4 or 5 to run, which requires basic librabry, and it can be found in [libraries file](modules/Gesture-STM32/Libraries/Keil.STM32F1xx_DFP.2.0.0.pack).  
 
 While the raspberry pi would need to fix the serial port in ttyAMA0 which would be relatively stable than the other.
 
@@ -61,7 +70,10 @@ This project uses pthread. Go check if you don't have them locally installed.
 $ sudo apt-get install pthread
 ```
 
-Besides, the chip should be connected in the right way of raspberry pi: GND - pin6, RXD - pin8, TXD - pin10.
+Besides, the chip should be connected in the right way of raspberry pi:
+```sh
+GND - pin6, RXD - pin8, TXD - pin10.
+```
 
 ## Usage
 
@@ -71,3 +83,10 @@ ALL the file have been integrated in Makefile, you can just make and then run in
 $ make
 $ ./Pisever
 ```
+## Contributing
+
+Buchen Ping
+<br />
+[Kaitong Qu](https://github.com/qukaitong)
+<br />
+[Wentao Cai](https://github.com/caiwentao123)

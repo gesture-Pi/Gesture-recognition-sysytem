@@ -91,7 +91,7 @@ ALL the file have been integrated in Makefile, you can just make and then run in
 $ make
 $ ./Pisever
 ```
-after running successfully, user can choose two types of mode:1.Digit Recognition 2.Rock-Paper-Scissors Game
+After running successfully, user can choose two types of mode:1.Digit Recognition 2.Rock-Paper-Scissors Game
 <br />
 ```sh
 Which mode do you want? 1 Finger or 2 Fist
@@ -102,12 +102,12 @@ After choosing one
 Do you want to use the existing dataset? 0 not or 1 yes
 ......
 ```
-at first use, user can only choose 0 to train new dataset. user should adjust gesture with tips until program tells that train finished. then user can coutinue to test data.
+At first use, user can only choose 0 to train new dataset. user should adjust gesture with tips until program tells that train finished. then user can coutinue to test data.
 
 <br />
-after putting hand over detection area, Raspberry Pi will receive data and check if the format of data is right. And then Raspberry Pi will show the result and send data to server.
+After putting hand over detection area, Raspberry Pi will receive data and check if the format of data is right. And then Raspberry Pi will show the result and send data to server.
 <br />
-until two clients establishing TCP connection with server, server will compare two data and show the result of judgement.
+Until two clients establishing TCP connection with server, server will compare two data and show the result of judgement.
 <br />
 
 ```sh
@@ -117,13 +117,16 @@ player2 send s
 #s means scissors
 player2 win!
 ```
-here is a running demo
+Here is a running demo
 <br />
 <p align="center">
   <a href="https://github.com/gesture-Pi/Gesture-recognition-sysytem">
     <img src="Images/test.gif" alt="Gesture-Pi"width="700" height="400">
   </a>
-
+ 
+<br />
+Our dataset is in [here](modules/Pisever) and code of server is [here](modules/communication module/multipleserver.cpp).
+  
 ## Contributing
 
 [Buchen Ping](https://github.com/PBC1998)

@@ -37,8 +37,37 @@ The gesture recognition system designed in this paper takes STM32 single chip mi
 Gestrue Pi uses capacitor boards as a sensor to recognize the voltage and current changes when users make different gestures, and then transmits the data to raspberry pi, which is used for gesture recognition and communication with other devices.
 When we can achieve this, it will be able to do many things. For example, two people can play with Rock-Paper-Scissors remotely and enjoy an immersive experience through raspberry pi.
 
-## Contributing
+## Algorithm
 
-Buchen Ping
-<b />
-[Kaitong Qu](https:
+KNN (K-Nearest Neighbor) method, originally proposed by Cover and Hart in 1968, is a relatively mature method in theory and one of the simplest machine learning algorithms.The idea of this method is very simple and intuitive: if most of the K most similar (that is, the closest in the feature space) samples of a sample belong to a certain category, then the sample also belongs to this category.In the classification decision, the method only determines the category of the samples to be divided according to the category of the nearest one or several samples.
+
+## Hardware
+
+FDC2214 sensor
+STM32Fxx(we use STM32F103C8T6here)
+an OLED screen
+rocker botton or replaced by several bottons
+raspberry Pi
+
+## Prerequisites
+
+This project consists of two parts: the STM32 and the raspberry pi program. The former uses Keil4 or 5 to run, which requires basic librabry, and it can be found in libraries file. Apart from that, the FDC sensor should be connected in the right pin, just as the program shown.超链接 
+
+While the raspberry pi would need to fix the serial port in ttyAMA0 which would be relatively stable than the other.
+
+This project uses pthread. Go check if you don't have them locally installed.
+
+```sh
+$ sudo apt-get install pthread
+```
+
+Besides, the chip should be connected in the right way of raspberry pi: GND - pin6, RXD - pin8, TXD - pin10.
+
+## Usage
+
+ALL the file have been integrated in Makefile, you can just make and then run in the raspberrypi.
+
+```sh
+$ make
+$ ./Pisever
+```

@@ -101,7 +101,7 @@ at first use, user can only choose 0 to train new dataset. user should adjust ge
 
 ## Contributing
 
-Buchen Ping
+[Buchen Ping](https://github.com/PBC1998)
 <br />
 [Kaitong Qu](https://github.com/qukaitong)
 <br />
@@ -111,4 +111,8 @@ Buchen Ping
 [MIT License](LICENSE)
 
 ## Contact
-Buchen Ping
+Buchen Ping 2539945P@student.gla.ac.uk
+<br />
+Wentao Cai 2582656C@student.gla.ac.uk
+<br />
+Kaitong Qu 2289284Q@student.gla.ac.uk

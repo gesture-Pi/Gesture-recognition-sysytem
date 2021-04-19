@@ -101,10 +101,11 @@ after putting hand over detection area, Raspberry Pi will receive data and check
 <br />
 until two clients establishing TCP connection with server, server will compare two data and show the result of judgement.
 <br />
+
 ```sh
 player1 send p
 #p means paper
-player2 send s
+player2 send s  
 #s means scissors
 player2 win!
 ```

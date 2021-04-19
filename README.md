@@ -1,16 +1,19 @@
 # Gesture-Pi
 <p align="center">
   <a href="https://github.com/gesture-Pi/Gesture-recognition-sysytem">
-    <img src="Images/Figure1.png" alt="Gesture-Pi"width="254" height="254">
+    <img src="Images/figure1.png" alt="Gesture-Pi"width="400" height="188">
   </a>
+<br />
+ <p align="center">
+    A remotely finger guessing game based on Raspberry Pi. 
+    <br />
+</div>
 <p align="center">
   <a href="https://www.bilibili.com/video/BV1sA411V7Yw/">
     <img src="Images/Bilibili.png" alt="Bilibili"  width="64" height="64">
   </a>
-  </a>
   <a href="https://twitter.com/Caiwentao12345">
     <img src="Images/twitter hover_pc.png" alt="Twitter"  width="64" height="64">
-  </a>
   </a>
   <a href="https://www.youtube.com/watch?v=zLDupBEazR8">
     <img src="Images/youtube.png" alt="youtube"  width="64" height="64">
@@ -22,14 +25,10 @@
 - [Introduction]( #Introduction)
 - [Algorithm](#Algorithm)
 - [Hardware](#Hardware)
-- [Usage](#usage)
-	- [Generator](#generator)
-- [Badge](#badge)
 - [Prerequisites](#Prerequisites)
-- [Related Efforts](#related-efforts)
-- [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#Contact)
 
 
 ## Introduction
@@ -55,7 +54,7 @@ KNN (K-Nearest Neighbor) method, originally proposed by Cover and Hart in 1968, 
 <br />
 <p align="center">
   <a href="https://github.com/gesture-Pi/Gesture-recognition-sysytem">
-    <img src="Images/figure1.jpg" alt="Gesture-Pi"  width="64" height="64">
+    <img src="Images/picture.jpg" alt="Gesture-Pi"  width="300" height="400">
   </a>
 
 ## Prerequisites
@@ -90,3 +89,9 @@ Buchen Ping
 [Kaitong Qu](https://github.com/qukaitong)
 <br />
 [Wentao Cai](https://github.com/caiwentao123)
+
+## License
+MIT
+
+## Contact
+Buchen Ping

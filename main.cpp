@@ -6,16 +6,16 @@
 
 using namespace std;
 
-int K = 10;  //K值
+int K = 10;  
 unsigned  char buff[1024];
-const char* dev = "/dev/ttyAMA0";  //固定串口号
-int Trainning_Flag;//生成训练集标志
-int TestFilerecv_Flag;  //测试集接收标志位
+const char* dev = "/dev/ttyAMA0";  
+int Trainning_Flag;
+int TestFilerecv_Flag;  
 int Dataset_configFlag;
 int Mode;
 const int type1file_start = 0;
-const int type2file_start = 20000;//训练集区分线
-const int Train_num = 18; //训练次数
+const int type2file_start = 20000;
+const int Train_num = 18; 
 int test_num = 0;
 int Filerecv_num = 0;
 char str[1000];
@@ -57,7 +57,7 @@ void* ListenSocket(void* avg)
     while (true)
     {
         n = myclient.readBuffer(buff);
-        if (n == 1)  //开始串口监听，等待数据接收  
+        if (n == 1)    
         {
             write(STDOUT_FILENO, buff, n);
             continue;

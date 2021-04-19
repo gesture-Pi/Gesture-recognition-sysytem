@@ -84,7 +84,6 @@ GND - pin6, RXD - pin8, TXD - pin10.
 
 ## Usage
 
-
 ALL the file have been integrated in Makefile, you can just make and then run in the raspberrypi.
 
 ```sh
@@ -117,9 +116,13 @@ player2 send s
 #s means scissors
 player2 win!
 ```
+
+We have trianed dataset for testing in [here](modules/Pisever)
 <br />
-Our dataset is in modules/Pisever and code of server is modules/communication module/multipleserver.cpp.
+Server is [here](modules/communication%20module/multipleserver.cpp).
+
 <br />
+
 
 Here is a running demo
 <br />

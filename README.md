@@ -91,7 +91,7 @@ Buchen Ping
 [Wentao Cai](https://github.com/caiwentao123)
 
 ## License
-MIT
+[MIT License](LICENSE)
 
 ## Contact
 Buchen Ping

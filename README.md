@@ -76,12 +76,29 @@ GND - pin6, RXD - pin8, TXD - pin10.
 
 ## Usage
 
+
 ALL the file have been integrated in Makefile, you can just make and then run in the raspberrypi.
 
 ```sh
 $ make
 $ ./Pisever
 ```
+after running successfully, user can choose two types of mode:1.Digit Recognition 2.Rock-Paper-Scissors Game
+<br />
+```sh
+Which mode do you want? 1 Finger or 2 Fist
+```
+After choosing one
+<br />
+```sh
+Do you want to use the existing dataset? 0 not or 1 yes
+......
+```
+at first use, user can only choose 0 to train new dataset. user should adjust gesture with tips until program tells that train finished. then user can coutinue to test data.
+
+<br />
+```sh
+
 ## Contributing
 
 Buchen Ping

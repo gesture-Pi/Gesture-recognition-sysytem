@@ -36,3 +36,9 @@ The gesture recognition system designed in this paper takes STM32 single chip mi
 
 Gestrue Pi uses capacitor boards as a sensor to recognize the voltage and current changes when users make different gestures, and then transmits the data to raspberry pi, which is used for gesture recognition and communication with other devices.
 When we can achieve this, it will be able to do many things. For example, two people can play with Rock-Paper-Scissors remotely and enjoy an immersive experience through raspberry pi.
+
+## Contributing
+
+Buchen Ping
+<b />
+[Kaitong Qu](https:

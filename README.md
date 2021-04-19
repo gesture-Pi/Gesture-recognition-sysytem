@@ -44,8 +44,16 @@ KNN (K-Nearest Neighbor) method, originally proposed by Cover and Hart in 1968, 
 
 [FDC2214 sensor](document/FDC2214)
 <br />
+<p align="center">
+    <img src="Images/FDC2214.png" alt="Gesture-Pi"width="400" height="300">
+  </a>
+  
 [STM32Fxx](https://uk.rs-online.com/web/p/microcontrollers/0402279/?gclid=EAIaIQobChMIpM_4j7mK8AIVTLTtCh0UZAAxEAAYASAAEgLis_D_BwE&gclsrc=aw.ds)(we use STM32F103C8T6here)
 <br />
+<p align="center">
+    <img src="Images/STM32.jpg" alt="Gesture-Pi"width="400" height="300">
+  </a>
+ 
 [an OLED screen](https://item.taobao.com/item.htm?id=565268851518&ali_refid=a3_430673_1006:1151926661:N:WFoiFXIH007ZiutAq%2B3BZQ%3D%3D:1932cfb731eaea0fd428272e019ed1c0&ali_trackid=1_1932cfb731eaea0fd428272e019ed1c0&spm=a2e0b.20350158.31919782.6)
 <br />
 [rocker botton or replaced by several bottons](https://detail.tmall.com/item.htm?id=620908458252&ali_refid=a3_430673_1006:1123793357:N:6OPPrB0+uX2elEPTt8Nlog==:b6f869ff14e6c9779e455577b3e83b6a&ali_trackid=1_b6f869ff14e6c9779e455577b3e83b6a&spm=a2e0b.20350158.31919782.2)
@@ -109,9 +117,11 @@ player2 send s
 #s means scissors
 player2 win!
 ```
+here is a running demo
+<br />
 <p align="center">
   <a href="https://github.com/gesture-Pi/Gesture-recognition-sysytem">
-    <img src="Images/test.gif" alt="Gesture-Pi"width="400" height="188">
+    <img src="Images/test.gif" alt="Gesture-Pi"width="700" height="400">
   </a>
 
 ## Contributing
